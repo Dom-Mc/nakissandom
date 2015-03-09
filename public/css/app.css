@@ -1,0 +1,149 @@
+body {
+  position: relative;
+  /* Location of the image */
+  background-image: url('/img/pic_a.jpg');
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646; }
+
+.element {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
+h1#date {
+  font-family: "Raleway";
+  font-weight: 100;
+  font-size: 9.5em;
+  margin-top: .9em;
+  color: #fff;
+  margin-bottom: 0; }
+  @media only screen and (max-width: 40em) {
+    h1#date {
+      font-size: 6.5em;
+      margin-top: 0;
+      line-height: 1em; } }
+  @media screen and (orientation: landscape) {
+    h1#date {
+      margin-top: 0; } }
+
+h1#thx {
+  font-family: "Raleway";
+  font-weight: 100;
+  font-size: 7.5em;
+  margin-top: .9em;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0; }
+  @media only screen and (max-width: 40em) {
+    h1#thx {
+      font-size: 6.5em;
+      margin-top: 0; } }
+  @media screen and (orientation: landscape) {
+    h1#thx {
+      margin-top: 0; } }
+
+span.error, small.error {
+  font-size: .85em;
+  font-style: normal; }
+
+#lead {
+  font-family: "Raleway";
+  line-height: 1.45em;
+  color: #fff;
+  font-size: 1.3em;
+  margin-bottom: 1.3em; }
+  @media only screen and (max-width: 40em) {
+    #lead {
+      font-size: 1.1em;
+      margin-left: 2em;
+      margin-right: 2em;
+      margin-top: 0; } }
+
+@media only screen and (min-width: 40.063em) {
+  form {
+    margin-top: 2.25em; } }
+
+/* form labels */
+.bld {
+  font-weight: 500;
+  font-size: 1em;
+  color: #888; }
+  @media only screen and (max-width: 40em) {
+    .bld {
+      font-size: .75em; } }
+
+select {
+  color: #444;
+  /* min-width 641px, medium screens and up */ }
+  @media only screen and (min-width: 40.063em) {
+    select {
+      font-size: .9em; } }
+
+#formHead {
+  font-size: 1.7em;
+  color: #888; }
+  @media only screen and (max-width: 40em) {
+    #formHead {
+      font-size: 1.5em;
+      margin-top: .75em;
+      margin-right: .25em;
+      margin-left: .25em;
+      margin-bottom: .5em; } }
+
+@media only screen and (max-width: 40em) {
+  .adrs {
+    font-size: .74em; } }
+
+.alert-box .close {
+  font-size: 2em;
+  color: whitesmoke; }
+
+li#contact {
+  font-size: 1.25em; }
+
+button, .button {
+  background-color: #337ab7; }
+
+.button.sub {
+  margin-top: .5em; }
+  @media only screen and (max-width: 40em) {
+    .button.sub {
+      width: 100%; } }
+
+.button:hover, .button:active {
+  background-color: #1E90FF;
+  border-color: black; }
+
+button.radius, .button.radius {
+  border-radius: 5px; }
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="color"]:focus, textarea:focus {
+  border-color: #1E90FF !important; }
+
+.reveal-modal {
+  /* max-width 640px, mobile-only styles, use when QAing mobile issues */ }
+  @media only screen and (max-width: 40em) {
+    .reveal-modal {
+      padding-left: 0;
+      padding-right: 0; } }
+
+/* Define mobile styles */
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* min-width 641px, medium screens */
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* min-width 1025px, large screens */
+
+/*# sourceMappingURL=app.css.map */

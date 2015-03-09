@@ -1,0 +1,244 @@
+@import 'partials/_colors';
+body {
+  // background: url('/img/pic_a.jpg') no-repeat 50% 50% fixed; 
+  // background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // -webkit-background-size: cover;
+  // text-align: center;
+  // font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  // font-weight: 300;
+  // height: 100%;
+  // width 100%;
+  position: relative;
+  /* Location of the image */
+  background-image: url('/img/pic_a.jpg');
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  // margin-left: auto;
+  // margin-right: auto;
+}
+
+
+h1#date {
+  font-family: "Raleway";
+  font-weight: 100;
+  font-size: 9.5em;
+  margin-top: .9em;
+  color: #fff;
+  margin-bottom: 0;
+      @media only screen and (max-width: 40em) {
+        font-size: 6.5em;
+        margin-top: 0;
+        line-height: 1em;
+      }  // Small screens
+      @media screen and (orientation: landscape) {
+        margin-top: 0;
+}
+}
+h1#thx {
+  font-family: "Raleway";
+  font-weight: 100;
+  font-size: 7.5em;
+  margin-top: .9em;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0;
+      @media only screen and (max-width: 40em) {  // Small screens
+        font-size: 6.5em;
+        margin-top: 0;
+      }  
+      @media screen and (orientation: landscape) {  // Landscape
+        margin-top: 0;
+      }
+}
+
+
+span.error, small.error {
+  font-size: .85em;
+  font-style: normal;
+}
+
+#lead {
+  // margin-top: 20px;
+  // margin-bottom: 40px;
+  font-family: "Raleway";
+  line-height: 1.45em;
+  color: #fff;
+  font-size: 1.3em;
+  margin-bottom: 1.3em;    
+      @media only screen and (max-width: 40em) {
+        font-size: 1.1em;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 0;
+      }  // Small screens
+}
+
+
+form {
+@media only screen and (min-width: 40.063em) {
+  margin-top: 2.25em;
+ }
+}
+
+
+  /* form labels */
+.bld {
+  font-weight: 500;
+  font-size: 1em;
+  color: #888;  
+      @media only screen and (max-width: 40em) {
+        font-size: .75em;
+      } // Small screens
+}
+
+select {
+  color: #444;
+    @media only screen and (min-width: 40.063em) { 
+      font-size: .9em;
+    } /* min-width 641px, medium screens and up */
+}
+
+#formHead{
+  font-size: 1.7em;
+  color: #888;  
+      @media only screen and (max-width: 40em) {
+        font-size: 1.5em;
+        margin-top: .75em;
+        margin-right: .25em;
+        margin-left: .25em;
+        margin-bottom: .5em;
+        }  // Small screens
+}
+
+.adrs {    
+    @media only screen and (max-width: 40em) {
+      font-size: .74em;
+    } // Small screens only
+}
+
+
+//errors x
+.alert-box .close {
+  font-size: 2em;
+  color:whitesmoke;
+}
+li#contact {
+  font-size: 1.25em;
+}
+
+
+//buttons
+button, .button {
+  background-color: #337ab7;
+ //   background-color: #00BFFF;
+  //       background-color: #1E90FF;
+  // border-color: #5bc0de;
+  // text-align: center;
+  // margin-left: auto;
+  // margin-right: auto;
+
+}
+
+.button.sub {
+  margin-top: .5em;
+    @media only screen and (max-width: 40em) { 
+      width:100%;
+    }
+}
+
+.button:hover, .button:active {
+  background-color: #1E90FF;
+  border-color: black;
+}
+
+button.radius, .button.radius {
+  border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus, 
+input[type="color"]:focus, 
+textarea:focus {
+    border-color: #1E90FF !important;
+}
+
+
+
+.reveal-modal {
+  @media only screen and (max-width: 40em) { 
+    padding-left: 0;
+    padding-right: 0;
+  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+}
+
+
+
+
+
+// Small screens
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { 
+
+
+
+
+// @media only screen and (max-width: 40em) { 
+// inline styles
+// label.inline {
+// margin: 0 0 0.88889rem 0;
+// padding: 0.5rem 0;
+// }
+// label.right {
+// float: none !important;
+// text-align: right;
+// }
+
+  } /* min-width 1025px, large screens */
+
+// .section {
+//         background: black;
+//         color: white;
+//         border-radius: 1em;
+//         padding: 1em;
+//         position: absolute;
+//         top: 50%;
+//         left: 50%;
+//         margin-right: -50%;
+//         transform: translate(-50%, -50%) 
+//       }
