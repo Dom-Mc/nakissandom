@@ -6659,7 +6659,8 @@ h1#date {
   font-size: 9.5em;
   margin-top: .9em;
   color: #fff;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  /* iPhone 5 ----------- */ }
   @media only screen and (max-width: 40em) {
     h1#date {
       font-size: 6.5em;
@@ -6668,6 +6669,12 @@ h1#date {
   @media screen and (orientation: landscape) {
     h1#date {
       margin-top: 0; } }
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    h1#date {
+      /* Styles */
+      font-size: 5.2em;
+      margin-top: 0;
+      line-height: 1em; } }
 
 h1#thx {
   font-family: "Raleway";
