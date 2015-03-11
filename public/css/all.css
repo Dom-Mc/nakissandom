@@ -6631,7 +6631,7 @@ th.hide-for-touch {
 body {
   position: relative;
   /* Location of the image */
-  background-image: url('/img/pic_a.jpg');
+  background-image: url('/img/xlarge.jpg');
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
   /* Background image doesn't tile */
@@ -6661,11 +6661,11 @@ h1#date {
   color: #fff;
   margin-bottom: 0;
   /* iPhone 5 ----------- */ }
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 1280px) {
     h1#date {
       font-size: 6.5em;
       margin-top: 0;
-      line-height: 1em; } }
+      line-height: 1.2em; } }
   @media screen and (orientation: landscape) {
     h1#date {
       margin-top: 0; } }
@@ -6770,18 +6770,11 @@ button.radius, .button.radius {
 input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="color"]:focus, textarea:focus {
   border-color: #1E90FF !important; }
 
-.reveal-modal {
-  /* max-width 640px, mobile-only styles, use when QAing mobile issues */ }
-  @media only screen and (max-width: 40em) {
-    .reveal-modal {
-      padding-left: 0;
-      padding-right: 0; } }
-
 /* Define mobile styles */
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 /* min-width 641px, medium screens */
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
-/* min-width 1025px, large screens */
+
 
 /*# sourceMappingURL=app.css.map */
 /*# sourceMappingURL=all.css.map */

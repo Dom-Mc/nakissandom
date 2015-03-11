@@ -1,18 +1,8 @@
 @import 'partials/_colors';
 body {
-  // background: url('/img/pic_a.jpg') no-repeat 50% 50% fixed; 
-  // background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
-  // -webkit-background-size: cover;
-  // text-align: center;
-  // font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  // font-weight: 300;
-  // height: 100%;
-  // width 100%;
   position: relative;
   /* Location of the image */
-  background-image: url('/img/pic_a.jpg');
+  background-image: url('/img/xlarge.jpg');
   
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -50,10 +40,10 @@ h1#date {
   margin-top: .9em;
   color: #fff;
   margin-bottom: 0;
-      @media only screen and (max-width: 40em) {
+      @media only screen and (max-width: 1280px) { //fix
         font-size: 6.5em;
         margin-top: 0;
-        line-height: 1em;
+        line-height: 1.20em;
       }  // Small screens
       @media screen and (orientation: landscape) {
         margin-top: 0;
@@ -204,13 +194,17 @@ textarea:focus {
 
 
 
-.reveal-modal {
-  @media only screen and (max-width: 40em) { 
-    padding-left: 0;
-    padding-right: 0;
-  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
-}
-
+// .reveal-modal { // add medium class to all above 740px?
+//   @media only screen and (max-width: 730) { 
+//   top: 0;
+//   left: 0;
+//   height: 100%;
+//   height: 100vh;
+//   min-height: 100vh;
+//   max-width: none !important;
+//   margin-left: 0 !important;
+// }
+//   }
 
 
 
@@ -226,32 +220,6 @@ textarea:focus {
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 // Large screens
-@media only screen and (min-width: 64.063em) { 
+@media only screen and (min-width: 64.063em) { }
 
 
-
-
-// @media only screen and (max-width: 40em) { 
-// inline styles
-// label.inline {
-// margin: 0 0 0.88889rem 0;
-// padding: 0.5rem 0;
-// }
-// label.right {
-// float: none !important;
-// text-align: right;
-// }
-
-  } /* min-width 1025px, large screens */
-
-// .section {
-//         background: black;
-//         color: white;
-//         border-radius: 1em;
-//         padding: 1em;
-//         position: absolute;
-//         top: 50%;
-//         left: 50%;
-//         margin-right: -50%;
-//         transform: translate(-50%, -50%) 
-//       }

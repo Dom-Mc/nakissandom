@@ -6,7 +6,7 @@
 <div class="element row">
 	<div class="large-8 large-centered columns end">
 		<h1 id="date" class="text-center">10.17.15</h1>
-    	<p id="lead" class="text-center">Nakissa &amp; Dom are getting married and you're are invited.<br>
+    	<p id="lead" class="text-center">Nakissa &amp; Dom are getting married and you're invited.<br>
     	Join us October 17th in Kailua-Kona, Hawaii.</p>
 		<div class="row">
 			<div class="small-12 large-6 small-centered text-center columns end">
@@ -15,7 +15,6 @@
 		</div>
 	</div>
 </div>
-
 
 {{-- Modal Start --}}
 <div id="firstModal" class="reveal-modal" data-reveal>
