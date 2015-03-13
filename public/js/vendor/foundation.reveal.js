@@ -10,7 +10,7 @@
 
     settings : {
       animation : 'fadeAndPop',
-      animation_speed : 700,
+      animation_speed : 500,
       close_on_background_click : false, //true
       close_on_esc : false,
       dismiss_modal_class : 'close-reveal-modal',

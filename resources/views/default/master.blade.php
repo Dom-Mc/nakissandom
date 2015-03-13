@@ -5,9 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Nakissa &amp; Dom</title>
-
 	<link href="/css/all.css" rel="stylesheet">
-
 	<!-- Fonts -->
 <!---------------------- FONTS BELOW---------------------->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -23,7 +21,7 @@
 	<![endif]-->
 	<script src="/js/vendor/modernizr.js"></script>
 </head>
-<body>
+<body data-interchange="[/img/1.jpg, (default)], [/img/2.jpg, (large)]">
 
 @yield('content')
 
@@ -32,6 +30,7 @@
 <script src="/js/vendor/fastclick.js"></script>
 <script src="/js/vendor/foundation.js"></script>
 <script src="/js/vendor/foundation.reveal.js"></script>
+<script src="js/foundation/foundation.interchange.js"></script>
 {{-- <script src="js/foundation/foundation.alert.js"></script> --}}
 	
 @if($errors->any())

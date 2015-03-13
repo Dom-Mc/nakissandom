@@ -19,7 +19,7 @@
 {{-- Modal Start --}}
 <div id="firstModal" class="reveal-modal" data-reveal>
 	<h3 id="formHead" class="modal-title text-center">Where should we send your invitation?</h3>
-	<hr class="show-for-medium-only"/>
+	<hr class="show-for-large-only"/>
 
 {{-- Form Start --}}
 {!! Form::open(['route' => 'store']) !!}

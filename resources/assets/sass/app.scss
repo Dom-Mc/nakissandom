@@ -1,27 +1,5 @@
-@import 'partials/_colors';
-body {
-  position: relative;
-  /* Location of the image */
-  background-image: url('/img/xlarge.jpg');
-  
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
-  
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
-  
-  /* Set a background color that will be displayed
-     while the background image is loading */
-  background-color: #464646;
-}
+@import 'partials/_fonts';
+@import 'partials/_layouts';
 
 
 .element {
@@ -40,6 +18,7 @@ h1#date {
   margin-top: .9em;
   color: #fff;
   margin-bottom: 0;
+  text-shadow: 1px 1px 1px grey;
       @media only screen and (max-width: 1280px) { //fix
         font-size: 6.5em;
         margin-top: 0;
@@ -70,6 +49,7 @@ h1#thx {
   color: #fff;
   line-height: 1;
   margin-bottom: 0;
+  text-shadow: 1px 1px 1px grey;
       @media only screen and (max-width: 40em) {  // Small screens
         font-size: 6.5em;
         margin-top: 0;
@@ -89,16 +69,21 @@ span.error, small.error {
   // margin-top: 20px;
   // margin-bottom: 40px;
   font-family: "Raleway";
+  font-weight: 200;
   line-height: 1.45em;
   color: #fff;
   font-size: 1.3em;
-  margin-bottom: 1.3em;    
+  margin-bottom: 1.3em;
       @media only screen and (max-width: 40em) {
         font-size: 1.1em;
         margin-left: 2em;
         margin-right: 2em;
         margin-top: 0;
       }  // Small screens
+
+      p {
+        text-shadow: 0 0 0 grey;
+      }
 }
 
 
@@ -128,10 +113,14 @@ select {
 
 #formHead{
   font-size: 1.7em;
-  color: #888;  
+  color: #888;
+        @media only screen and (max-width: 770px) {
+        margin-top: 30px;
+        margin-bottom: 1.25em;
+      }
       @media only screen and (max-width: 40em) {
         font-size: 1.5em;
-        margin-top: .75em;
+        margin-top: .9em;
         margin-right: .25em;
         margin-left: .25em;
         margin-bottom: .5em;

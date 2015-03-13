@@ -3967,7 +3967,8 @@ blockquote p {
   padding: 1.875rem;
   border: solid 1px #666666;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
-  @media only screen and (max-width: 40em) {
+  //40
+  @media only screen and (max-width: 700px) { /*40em*/
     .reveal-modal {
       min-height: 100vh; } }
   .reveal-modal .column, .reveal-modal .columns {
@@ -3976,14 +3977,14 @@ blockquote p {
     margin-top: 0; }
   .reveal-modal > :last-child {
     margin-bottom: 0; }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 701px) { /*40.063em*/
     .reveal-modal {
       width: 80%;
       max-width: 62.5rem;
       left: 0;
       right: 0;
       margin: 0 auto; } }
-  @media only screen and (min-width: 40.063em) {
+  @media only screen and (min-width: 701px) { /*40.063em*/
     .reveal-modal {
       top: 6.25rem; } }
   .reveal-modal.radius {
