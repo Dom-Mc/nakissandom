@@ -63,7 +63,7 @@
 	<div class="small-2 large-2 columns">
 		{!! Form::label("State", "State:", ["class" => "right inline bld"]) !!}
 	</div>
-	<div class="small-4 large-3 columns end">
+	<div class="small-4 large-3 columns">
 		{!! Form::text("State", null, ["class" => "error"]) !!}
 		<div>
 			{!! $errors->first('State', '<small class="error">:message</small>') !!}
@@ -73,7 +73,7 @@
 	<div class="small-2 large-2 columns">
 		{!! Form::label("Zip", "Zip:", ["class" => "right inline bld"]) !!}
 	</div>
-	<div class="small-4 large-3 columns">
+	<div class="small-4 large-3 columns end">
 		{!! Form::text("Zip", null, ["class" => "error"]) !!}
 		<div>
 			{!! $errors->first('Zip', '<small class="error">:message</small>') !!}
@@ -106,10 +106,11 @@
 </div>
 
 <div class="row">
-	<div class="small-3 large-2 large-offset-4 columns">
-		{!! Form::label("SaveSeat", "Survey", ["class" => "right inline bld text-center"]) !!}
+	<div class="small-2 large-1 large-offset-4 small-offset-2 columns">
+		{!! Form::label("SaveSeat", "Survey:", ["class" => "right inline bld text-center"]) !!}
 	</div>
-	<div class="small-9 large-4 columns end">
+
+	<div class="small-8 large-5 columns end">
 		{!! Form::select('SaveSeat', [
 			"empty" => "Think you can make it?",
 			"Yes" => "YES, can't wait :D",
