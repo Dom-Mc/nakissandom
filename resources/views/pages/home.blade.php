@@ -61,21 +61,22 @@
 
 <div class="row">
 	<div class="small-2 large-2 columns">
-		{!! Form::label("Zip", "Zip:", ["class" => "right inline bld"]) !!}
-	</div>
-	<div class="small-4 large-3 columns">
-		{!! Form::text("Zip", null, ["class" => "error"]) !!}
-		<div>
-			{!! $errors->first('Zip', '<small class="error">:message</small>') !!}
-		</div>
-	</div>
-	<div class="small-2 large-2 columns">
 		{!! Form::label("State", "State:", ["class" => "right inline bld"]) !!}
 	</div>
 	<div class="small-4 large-3 columns end">
 		{!! Form::text("State", null, ["class" => "error"]) !!}
 		<div>
 			{!! $errors->first('State', '<small class="error">:message</small>') !!}
+		</div>
+	</div>
+	
+	<div class="small-2 large-2 columns">
+		{!! Form::label("Zip", "Zip:", ["class" => "right inline bld"]) !!}
+	</div>
+	<div class="small-4 large-3 columns">
+		{!! Form::text("Zip", null, ["class" => "error"]) !!}
+		<div>
+			{!! $errors->first('Zip', '<small class="error">:message</small>') !!}
 		</div>
 	</div>
 </div>
@@ -106,7 +107,7 @@
 
 <div class="row">
 	<div class="small-3 large-2 large-offset-4 columns">
-		{!! Form::label("SaveSeat", "Optional Survey", ["class" => "right inline bld text-center"]) !!}
+		{!! Form::label("SaveSeat", "Survey", ["class" => "right inline bld text-center"]) !!}
 	</div>
 	<div class="small-9 large-4 columns end">
 		{!! Form::select('SaveSeat', [
