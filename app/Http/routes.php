@@ -27,4 +27,4 @@
 Route::get('/', ['as' => 'home', 'uses' => 'AddressController@home']);
 Route::post('/', ['as' => 'store', 'uses' => 'AddressController@store']);
 Route::get('thankyou', ['as' => 'thankyou', 'uses' => 'AddressController@thankyou']);
-Route::get('hotel', ['as' => 'hotel', 'uses' => 'AddressController@hotel']);
+Route::get('getaroom', ['as' => 'hotel', 'uses' => 'AddressController@hotel']);
