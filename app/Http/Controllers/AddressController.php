@@ -28,5 +28,10 @@ class AddressController extends Controller {
 	{
 		return view('pages.thankyou');
 	}
+	
+	public function hotel()
+	{
+		return redirect()->away('https://www.starwoodmeeting.com/Book/GradertMcKellarWedding');
+	}
 
 }
