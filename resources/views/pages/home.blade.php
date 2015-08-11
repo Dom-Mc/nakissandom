@@ -5,7 +5,7 @@
 
 <div class="element row">
 	<div class="large-8 large-centered columns end">
-		<h1 id="date" class="text-center">Update in Progress</h1>
+		<h1 id="date" class="text-center" style="font-size: 3rem;">Update in Progress</h1>
     	<p id="lead" class="text-center">Our page is being updated. Please come back in a few hours.<br>
     	Thank you!</p>
 	</div>
