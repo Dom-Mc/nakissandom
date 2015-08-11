@@ -5,14 +5,9 @@
 
 <div class="element row">
 	<div class="large-8 large-centered columns end">
-		<h1 id="date" class="text-center">10.17.15</h1>
-    	<p id="lead" class="text-center">Nakissa &amp; Dom are getting married and you're invited.<br>
-    	Join us October 17th in Kailua-Kona, Hawaii.</p>
-		<div class="row">
-			<div class="small-12 large-6 small-centered text-center columns end">
-				<a href="#" data-reveal-id="firstModal" class="radius button">Wanna get away?</a>
-			</div>
-		</div>
+		<h1 id="date" class="text-center">Update in Progress</h1>
+    	<p id="lead" class="text-center">Our page is being updated. Please come back in a few hours.<br>
+    	Thank you!</p>
 	</div>
 </div>
 
